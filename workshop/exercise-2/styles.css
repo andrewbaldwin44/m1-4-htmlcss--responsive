@@ -36,3 +36,13 @@ body {
     background-color: black;
     margin: 6px 0;
 }
+
+@media (min-width: 300px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-links {
+    display: block;
+  }
+}
